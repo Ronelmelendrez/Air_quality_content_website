@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { RootLayout } from './layouts/RootLayout';
-import { ScrollToTop } from './components/ScrollToTop';
+import { ScrollToTop } from './components/ScrollToTop.tsx';
 import LandingPage from './pages/LandingPage.tsx';
 import AboutStudy from './pages/AboutStudy.tsx';
 import AirQualityDashboard from './pages/AirQualityDashboard.tsx';
