@@ -1,5 +1,4 @@
-import { motion } from 'framer-motion';
-import { Activity, Wind, AlertTriangle, CheckCircle, TrendingUp, TrendingDown, Minus } from 'lucide-react';
+import { Activity, Wind, AlertTriangle, CheckCircle, TrendingUp, TrendingDown } from 'lucide-react';
 import { PM25TrendChart } from '../charts/PM25TrendChart';
 import { PM10TrendChart } from '../charts/PM10TrendChart';
 import { StandardsComparisonChart } from '../charts/StandardsComparisonChart';
@@ -19,9 +18,7 @@ const AirQualityDashboard = () => {
   const avgPM25 = getAveragePM25();
   const avgPM10 = getAveragePM10();
   const pm25Trend = getPM25Trend();
-  const pm10Trend = getPM10Trend();
   const latestPM25 = airQualityData[airQualityData.length - 1].pm25;
-  const latestPM10 = airQualityData[airQualityData.length - 1].pm10;
 
   const riskLevel = latestPM25 > whoStandards.pm25 * 3 ? "High" : latestPM25 > whoStandards.pm25 * 2 ? "Moderate" : "Low";
 

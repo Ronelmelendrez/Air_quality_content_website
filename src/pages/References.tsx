@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { BookOpen, Search, ExternalLink } from 'lucide-react';
+import { BookOpen, Search } from 'lucide-react';
 import { AnimatedSection } from '../components/AnimatedSection';
 
 const References = () => {

@@ -1,14 +1,10 @@
-import { motion } from 'framer-motion';
-import { TrendingUp, TrendingDown, AlertCircle, BarChart3, Factory, Car, Users } from 'lucide-react';
+import { TrendingUp, AlertCircle, BarChart3, Factory, Car, Users } from 'lucide-react';
 import { PM25TrendChart } from '../charts/PM25TrendChart';
 import { PM10TrendChart } from '../charts/PM10TrendChart';
-import { airQualityData, philippineStandards, whoStandards } from '../data/airQualityData';
+import { airQualityData } from '../data/airQualityData';
 import { AnimatedSection } from '../components/AnimatedSection';
 
 const ResultsDiscussion = () => {
-  const pm25Increase = airQualityData[airQualityData.length - 1].pm25 > airQualityData[airQualityData.length - 2].pm25;
-  const pm10Increase = airQualityData[airQualityData.length - 1].pm10 > airQualityData[airQualityData.length - 2].pm10;
-
   return (
     <div className="pt-24 pb-16">
       <div className="container mx-auto px-4 md:px-6">

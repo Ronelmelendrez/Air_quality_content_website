@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { CheckCircle, Lightbulb, Monitor, Gavel, Megaphone, Bus, Trash2, Beaker } from 'lucide-react';
+import { CheckCircle, Monitor, Gavel, Megaphone, Bus, Beaker } from 'lucide-react';
 import { AnimatedSection } from '../components/AnimatedSection';
 
 const ConclusionRecommendations = () => {

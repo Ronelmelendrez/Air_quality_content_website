@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronDown, Target, TrendingUp, Shield, BookOpen, MapPin, Users, Leaf } from 'lucide-react';
+import { ChevronDown, Target, TrendingUp, Shield, BookOpen, MapPin } from 'lucide-react';
 import { AnimatedSection } from '../components/AnimatedSection';
 
 const AccordionItem = ({ title, children, icon }: { title: string; children: React.ReactNode; icon: React.ReactNode }) => {

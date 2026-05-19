@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowRight, Activity, Wind, Award, TrendingUp, Droplets, AlertTriangle } from 'lucide-react';
+import { ArrowRight, Wind, Award, TrendingUp, Droplets } from 'lucide-react';
 import { AnimatedSection } from '../components/AnimatedSection';
-import { getAveragePM25, getAveragePM10, philippineStandards, whoStandards } from '../data/airQualityData';
+import { getAveragePM25, getAveragePM10 } from '../data/airQualityData';
 
 const LandingPage = () => {
   const avgPM25 = getAveragePM25();
