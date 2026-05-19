@@ -8,7 +8,6 @@ import {
   getAveragePM25, 
   getAveragePM10, 
   getPM25Trend, 
-  getPM10Trend,
   philippineStandards,
   whoStandards 
 } from '../data/airQualityData';

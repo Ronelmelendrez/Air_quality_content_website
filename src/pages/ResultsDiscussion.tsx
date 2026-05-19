@@ -1,7 +1,6 @@
 import { TrendingUp, AlertCircle, BarChart3, Factory, Car, Users } from 'lucide-react';
 import { PM25TrendChart } from '../charts/PM25TrendChart';
 import { PM10TrendChart } from '../charts/PM10TrendChart';
-import { airQualityData } from '../data/airQualityData';
 import { AnimatedSection } from '../components/AnimatedSection';
 
 const ResultsDiscussion = () => {
