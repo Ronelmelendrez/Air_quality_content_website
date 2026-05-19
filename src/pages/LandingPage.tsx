@@ -128,7 +128,7 @@ const LandingPage = () => {
                 <Award className="w-10 h-10 text-yellow-500 mx-auto mb-3" />
                 <h3 className="text-xl font-bold text-gray-800 dark:text-white">WHO Guideline</h3>
                 <p className="text-gray-600 dark:text-gray-400">All values exceeded limits</p>
-                <p className="text-xs text-red-500 mt-2">PM₂.₅ > 5 μg/m³ | PM₁₀ > 15 μg/m³</p>
+                <p className="text-xs text-red-500 mt-2">PM₂.₅ &gt; 5 μg/m³ | PM₁₀ &gt; 15 μg/m³</p>
               </div>
             </AnimatedSection>
             <AnimatedSection delay={0.4}>
