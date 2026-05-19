@@ -1,13 +1,13 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { RootLayout } from './layouts/RootLayout';
 import { ScrollToTop } from './components/ScrollToTop';
-import LandingPage from './pages/LandingPage';
-import AboutStudy from './pages/AboutStudy';
-import AirQualityDashboard from './pages/AirQualityDashboard';
-import Methodology from './pages/Methodology';
-import ResultsDiscussion from './pages/ResultsDiscussion';
-import ConclusionRecommendations from './pages/ConclusionRecommendations';
-import References from './pages/References';
+import LandingPage from './pages/LandingPage.tsx';
+import AboutStudy from './pages/AboutStudy.tsx';
+import AirQualityDashboard from './pages/AirQualityDashboard.tsx';
+import Methodology from './pages/Methodology.tsx';
+import ResultsDiscussion from './pages/ResultsDiscussion.tsx';
+import ConclusionRecommendations from './pages/ConclusionRecommendations.tsx';
+import References from './pages/References.tsx';
 
 function App() {
   return (
