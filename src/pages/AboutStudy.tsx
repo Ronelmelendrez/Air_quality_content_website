@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronDown, Target, TrendingUp, Shield, BookOpen, MapPin } from 'lucide-react';
 import { AnimatedSection } from '../components/AnimatedSection';
+import studyAreaImage from '../assets/image/pic.jpg';
 
 const AccordionItem = ({ title, children, icon }: { title: string; children: React.ReactNode; icon: React.ReactNode }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -136,7 +137,12 @@ const AboutStudy = () => {
               </AccordionItem>
 
               <AccordionItem title="Study Area" icon={<MapPin className="w-5 h-5" />}>
-                <p>Barangay Doongan, Butuan City contains urban environments, urbanizing communities, and rural locations. These land-use characteristics influence transportation activity, population density, and pollutant generation.</p>
+                <p className="mb-4">Barangay Doongan, Butuan City contains urban environments, urbanizing communities, and rural locations. These land-use characteristics influence transportation activity, population density, and pollutant generation.</p>
+                <img 
+                  src={studyAreaImage} 
+                  alt="Study Area - Barangay Doongan, Butuan City" 
+                  className="w-full rounded-lg object-cover shadow-lg"
+                />
               </AccordionItem>
             </AnimatedSection>
           </div>
